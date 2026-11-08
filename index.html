@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OpenJarvis Locale: assistente personale sul proprio PC con Ollama e collegamenti Google autorizzati dall'utente.">
+  <title>OpenJarvis Locale — informazioni sull'app</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#18252b;background:#f4f6f5;line-height:1.65}*{box-sizing:border-box}body{margin:0}a{color:#075c4d;text-underline-offset:.18em}a:focus-visible{outline:3px solid #ad5b00;outline-offset:4px}header,main,footer{max-width:840px;margin:auto;padding:1.4rem 1.5rem}header{border-bottom:1px solid #ccd6d2}nav{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;margin-top:.7rem}nav a[aria-current]{font-weight:700}h1,h2{line-height:1.25;letter-spacing:-.02em}h1{font-size:clamp(2rem,5vw,3rem);margin:.6rem 0 1rem}h2{font-size:1.35rem;margin-top:2rem}.eyebrow{font-weight:650;color:#446159;margin:1rem 0 .2rem}.lead{font-size:1.2rem}.notice{padding:1rem 1.2rem;background:#e5eee9;border-left:4px solid #176b54;border-radius:3px}li+li{margin-top:.5rem}footer{font-size:.92rem;color:#4b5e57;border-top:1px solid #ccd6d2;margin-top:2rem}.skip{position:absolute;left:1rem;top:-5rem;background:white;padding:.6rem}.skip:focus{top:.5rem}p{max-width:74ch}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header>
+    <strong>OpenJarvis Locale</strong>
+    <nav aria-label="Navigazione principale">
+      <a href="index.html" aria-current="page">L'app</a>
+      <a href="privacy.html">Privacy e dati Google</a>
+      <a href="terms.html">Condizioni d'uso personale</a>
+    </nav>
+  </header>
+  <main id="contenuto">
+    <p class="eyebrow">Configurazione personale su Windows</p>
+    <h1>Un assistente che lavora sul tuo PC.</h1>
+    <p class="lead">OpenJarvis Locale usa modelli Ollama eseguiti in locale per conversare, cercare nelle fonti collegate, analizzare informazioni e preparare azioni da approvare.</p>
+    <p class="notice">Queste pagine descrivono l'app. Non ospitano Jarvis e non ricevono i suoi token, messaggi, documenti, contatti o conversazioni.</p>
+
+    <h2>A cosa serve il collegamento Google</h2>
+    <p>L'utente sceglie quali account collegare e quali servizi autorizzare nel consenso ufficiale Google. Jarvis non richiede di digitare la password Google nell'app.</p>
+    <ul>
+      <li><strong>Gmail:</strong> importare e cercare messaggi; preparare risposte e inviare il contenuto esatto solo dopo approvazione.</li>
+      <li><strong>Calendar:</strong> leggere gli appuntamenti; creare un evento solo dopo l'approvazione di titolo, calendario, orari e altri dettagli.</li>
+      <li><strong>Drive:</strong> leggere e indicizzare i file supportati per ricerca e analisi locali.</li>
+      <li><strong>Contatti:</strong> leggere le informazioni dei contatti autorizzati.</li>
+      <li><strong>Tasks:</strong> leggere liste e attività, anche quando una lista è vuota.</li>
+    </ul>
+    <p>Drive, Contatti e Tasks sono collegamenti in lettura. Jarvis non usa questi permessi per modificare o eliminare file, contatti o attività Google.</p>
+
+    <h2>Archiviazione e intelligenza artificiale locali</h2>
+    <p>Token OAuth, account collegati, testi importati, indici, memoria e statistiche dell'app sono conservati sul PC. Le elaborazioni AI usano Ollama locale, senza fallback a un modello cloud. Le statistiche dell'app sono locali, senza analytics esterne.</p>
+    <p>I collegamenti ai servizi online richiedono naturalmente le rispettive API: l'autorizzazione e le sincronizzazioni Google avvengono attraverso Google; una mail inviata o un appuntamento creato vengono registrati nel proprio account Google. Nessun contenuto viene caricato su questo sito.</p>
+
+    <h2>Controllo dell'utente</h2>
+    <p>La configurazione non avvia una sincronizzazione Google automatica all'apertura. Letture e sincronizzazioni si attivano con una richiesta esplicita. Invii email e creazione di appuntamenti passano da un'anteprima e da un'approvazione riferita alla singola azione.</p>
+    <p>Il collegamento può essere rimosso in Jarvis e il consenso può essere revocato dalle impostazioni del proprio account Google. La rimozione del token e la cancellazione delle copie già importate sono operazioni distinte: i dettagli sono nella <a href="privacy.html">informativa privacy</a>.</p>
+
+    <h2>Uso personale e supporto</h2>
+    <p>Questa configurazione è destinata all'uso personale del proprietario sul proprio computer. Per il supporto, fare riferimento al contatto sviluppatore mostrato nel consenso Google dell'app.</p>
+  </main>
+  <footer>
+    <p>OpenJarvis Locale · Informazioni aggiornate all'8 novembre 2026.</p>
+    <p><a href="privacy.html">Informativa privacy</a> · <a href="terms.html">Condizioni d'uso personale</a></p>
+  </footer>
+</body>
+</html>

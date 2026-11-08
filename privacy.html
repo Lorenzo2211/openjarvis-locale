@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Come OpenJarvis Locale accede, usa e conserva sul PC i dati Google autorizzati dall'utente.">
+  <title>Privacy e dati Google — OpenJarvis Locale</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#18252b;background:#f4f6f5;line-height:1.65}*{box-sizing:border-box}body{margin:0}a{color:#075c4d;text-underline-offset:.18em}a:focus-visible{outline:3px solid #ad5b00;outline-offset:4px}header,main,footer{max-width:840px;margin:auto;padding:1.4rem 1.5rem}header{border-bottom:1px solid #ccd6d2}nav{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;margin-top:.7rem}nav a[aria-current]{font-weight:700}h1,h2{line-height:1.25;letter-spacing:-.02em}h1{font-size:clamp(2rem,5vw,3rem);margin:.6rem 0 1rem}h2{font-size:1.35rem;margin-top:2rem}.eyebrow{font-weight:650;color:#446159;margin:1rem 0 .2rem}.notice{padding:1rem 1.2rem;background:#e5eee9;border-left:4px solid #176b54;border-radius:3px}li+li{margin-top:.5rem}footer{font-size:.92rem;color:#4b5e57;border-top:1px solid #ccd6d2;margin-top:2rem}.skip{position:absolute;left:1rem;top:-5rem;background:white;padding:.6rem}.skip:focus{top:.5rem}p{max-width:74ch}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header>
+    <strong>OpenJarvis Locale</strong>
+    <nav aria-label="Navigazione principale">
+      <a href="index.html">L'app</a>
+      <a href="privacy.html" aria-current="page">Privacy e dati Google</a>
+      <a href="terms.html">Condizioni d'uso personale</a>
+    </nav>
+  </header>
+  <main id="contenuto">
+    <p class="eyebrow">Informativa della configurazione personale</p>
+    <h1>Privacy e dati Google</h1>
+    <p>Questa informativa descrive la configurazione personale OpenJarvis Locale, eseguita sul computer del proprietario. L'utente decide quali account e servizi collegare e come usare i dati importati.</p>
+    <p class="notice">Le elaborazioni AI e l'archiviazione di Jarvis avvengono sul PC. Questo sito informativo non è un archivio dei dati dell'app e non riceve credenziali OAuth, messaggi, file, contatti o conversazioni.</p>
+
+    <h2>Dati ai quali l'app accede</h2>
+    <p>Il collegamento usa OAuth Google: l'accesso viene concesso nella pagina ufficiale Google, senza raccogliere la password nell'app. L'app riceve un identificativo account, nome, indirizzo email e informazioni di profilo necessarie a distinguere gli account collegati, oltre ai token per gli accessi autorizzati.</p>
+    <p>Secondo i servizi scelti e i permessi effettivamente concessi, Jarvis può leggere:</p>
+    <ul>
+      <li>messaggi Gmail, intestazioni, partecipanti e metadati utili alla ricerca o alla preparazione di risposte;</li>
+      <li>calendari ed eventi, con titoli, descrizioni e orari;</li>
+      <li>metadati e contenuti dei file Drive supportati dall'importatore;</li>
+      <li>informazioni dei contatti Google;</li>
+      <li>liste e attività Google Tasks, compresi titoli, note e metadati disponibili.</li>
+    </ul>
+    <p>Due autorizzazioni aggiuntive consentono, se concesse, di inviare email con Gmail e creare appuntamenti con Calendar. Ogni operazione richiede l'anteprima e l'approvazione esplicita dell'utente. Le altre integrazioni Google qui descritte restano in lettura.</p>
+
+    <h2>Finalità d'uso</h2>
+    <p>I dati sono usati per fornire le funzioni richieste dall'utente: sincronizzazione locale, ricerca di messaggi e documenti, richiamo del contesto, riepiloghi, analisi, preparazione di risposte e azioni approvate. I contenuti recuperati possono essere inclusi nel contesto del modello Ollama eseguito sul PC.</p>
+    <p>Le statistiche locali servono a osservare prestazioni e funzionamento dell'app. Le proposte di miglioramento possono basarsi su metadati locali del funzionamento; non comportano l'addestramento generalizzato di un modello sui dati Google.</p>
+
+    <h2>Archiviazione, trasferimenti e condivisione</h2>
+    <p>I token OAuth e i dati degli account collegati sono conservati nella configurazione locale di Jarvis. Le copie importate, gli indici di ricerca, le conversazioni e l'eventuale memoria nel vault locale restano sul computer. La protezione del computer, dell'account Windows e di eventuali backup è quindi parte della protezione di questi dati.</p>
+    <p>Jarvis comunica direttamente con Google per autorizzazione, rinnovo dei token e operazioni richieste sulle API. Per un invio email approvato, il testo e i destinatari vengono trasmessi a Gmail; per un evento approvato, i dettagli vengono trasmessi a Calendar. Gli eventuali destinatari o invitati ricevono quanto previsto dall'azione e dal comportamento del servizio Google.</p>
+    <p>I dati Google non vengono inviati a questo sito, a fornitori di modelli AI cloud o a servizi di analytics esterne. Non vengono venduti, usati per pubblicità, ceduti a intermediari di dati o impiegati per addestrare modelli AI generalizzati. L'accesso a tali dati da parte di persone diverse dal proprietario non fa parte del normale funzionamento della configurazione.</p>
+    <p>L'uso e il trasferimento delle informazioni ricevute dalle API Google rispettano la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, inclusi i requisiti di <em>Limited Use</em>.</p>
+
+    <h2>Conservazione e rimozione</h2>
+    <p>I dati locali restano disponibili finché il proprietario li conserva. La sincronizzazione non costituisce una cancellazione delle copie precedenti e la revoca di un permesso Google non elimina da sola il materiale già importato.</p>
+    <ul>
+      <li><strong>Scollegare in Jarvis:</strong> rimuove il token e la registrazione locale dell'account per impedirne l'uso successivo nell'app. Le copie dei documenti già importate restano conservate.</li>
+      <li><strong>Revocare presso Google:</strong> nelle <a href="https://myaccount.google.com/connections">connessioni del proprio account Google</a> è possibile rimuovere il consenso dell'app. Questo passaggio impedisce ulteriori accessi con quel consenso.</li>
+      <li><strong>Eliminare le copie locali:</strong> occorre rimuovere separatamente i documenti importati, i relativi indici e, se presenti, i dati copiati in conversazioni, memoria o vault. Eventuali backup vanno gestiti separatamente dal proprietario.</li>
+    </ul>
+    <p>Un'email già inviata o un evento già creato rimangono nel servizio Google finché non vengono gestiti lì dall'utente; scollegare Jarvis non annulla le azioni completate.</p>
+
+    <h2>Questo sito informativo</h2>
+    <p>Le pagine non contengono JavaScript, tracker, moduli di raccolta dati, cookie applicativi, font remoti o richieste automatiche a servizi terzi. I collegamenti esterni si aprono solo quando vengono seguiti dall'utente. Se queste pagine sono pubblicate su un servizio di hosting, quel servizio può trattare i normali dati tecnici delle visite secondo le proprie condizioni: tali visite non trasmettono contenuti o token di Jarvis.</p>
+    <p>La pubblicazione prevista usa GitHub Pages. Come indicato nella <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">documentazione di GitHub Pages</a>, il servizio registra e conserva l'indirizzo IP dei visitatori per finalità di sicurezza, anche senza un accesso a GitHub. Si tratta dei dati tecnici della visita al sito informativo, non dei dati degli account collegati a Jarvis.</p>
+
+    <h2>Contatti e aggiornamenti</h2>
+    <p>Per chiarimenti su questa configurazione, usare il contatto sviluppatore mostrato nel consenso Google dell'app. Questa informativa viene aggiornata quando cambiano le funzioni o l'uso dei dati.</p>
+    <p>Ultimo aggiornamento: 8 novembre 2026.</p>
+  </main>
+  <footer>
+    <p><a href="index.html">OpenJarvis Locale</a> · <a href="terms.html">Condizioni d'uso personale</a></p>
+  </footer>
+</body>
+</html>
